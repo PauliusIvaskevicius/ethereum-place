@@ -1,5 +1,7 @@
 # ethereum-place
 
+Live: https://ethereum-place.web.app/
+
 This website was created by @codemaxwell.
 
 ETH Place replicates the behaviour of the famous /r/place concept.

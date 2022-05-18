@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.GridRow 
+{
+    margin: 0;
+    padding: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.GridItem {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+	display: flex;
+}
+
+.GridItem:hover {
+	box-shadow: inset 0px 0px 0px 1px #000;
+	cursor: pointer;
+}
+
+.GridItemPopover {
+	position: absolute;
+	z-index: 2;
+}
+
+.GridItemCover {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+  

@@ -18,6 +18,10 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
+.firebase/*
+.firebaserc
+
+
 # testing
 /coverage
 

@@ -104,6 +104,8 @@ function App() {
 											<Text>Frontend of this site was made with react and moralis.</Text>
 											<br />
 											<Text>This implementation supports canvas size of 100x100. Larger canvas size would require the use of WebGL for rendering and modified smart contract to support fetching of larger data structure.</Text>
+											<br />
+											<Text>Source code for this application can be found here in <Link href="https://github.com/PauliusIvaskevicius/ethereum-place" isExternal>GitHub <ExternalLinkIcon mx='2px' /></Link></Text>
 										</ModalBody>
 										<ModalFooter />
 									</ModalContent>
